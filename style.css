@@ -1,0 +1,196 @@
+#header {
+    position: fixed;
+    display: flex;;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    border-color: black;
+    background-color: whitesmoke;
+}
+
+
+#input-query {
+    width: 35vw;
+    height: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 10px;
+    border-width: 0.1px;
+    border-color: lightgray;
+}
+
+#main-doc {
+    font-family: 'Roboto',arial,sans-serif;
+}
+
+#search-results-page {
+    margin-top: 40px;
+    margin-left: 10vw;
+    width: 50vw;
+    height: 100%;
+}
+
+#logo {
+    width: 10vw;
+    max-height: 100%;
+}
+
+#search-bar-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#search-results-quantified {
+    margin-top: 60px;
+    color: #70757a;
+    margin-left: 9.5vw;
+    font-size: 14px;
+}
+
+#search-btn {
+    border-width: 0.5px;
+    border-color: white;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#search-btn-img {
+    width: 25px;
+    height: 100%;
+    background-color: white;
+    
+}
+
+#website {
+    color: 	#404040;
+    font-size: 14px;
+}
+
+#adele-hello {
+    display: flex;
+
+}
+
+#placeholder-img {
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px 1px, lightgray;
+}
+
+#side-result {
+    display: grid;
+    padding: 0px 10px 0px 10px;
+    margin-left: 10vw;
+    border-style: solid;
+    border-color: lightgrey;
+    border-radius: 10px;
+    border-width: 1px;
+    margin-bottom: 100px;
+}
+
+#side-result-header {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+#side-link-1 #side-link-2 {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+#side-result > p {
+    font-size: 14px;
+}
+
+#wikipedia-hello {
+    margin-top: -70px;
+}
+
+#people-also-ask {
+    border-radius: 5px;
+    border-style: solid;
+    box-shadow: 2px 2px 2px 1px, lightgray;
+    border-width: 1px;
+    border-color: lightgray;
+    padding-left: 10px;
+
+}
+
+#list-also-ask {
+    margin-left: -30px;
+    list-style-type: none;
+    font-size: 14px;
+    color: black;
+
+}
+
+#h-paa {
+    font-size: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+#result-link {
+    font-size: 1.2em;
+}
+
+.result-description {
+    color: #4d5156;
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+#image-categories {
+    margin-top: -10px;
+}
+#images-hello {
+    margin-top: 10px;
+}
+#more-images {
+    font-size: 13px;
+    margin-top: -10px;
+}
+
+#footer {
+    margin-top: 10px;
+    background-color: #f2f2f2;
+    font-size: 12px;
+}
+
+#user-location {
+    font-weight: bold;
+}
+
+
+#location-container {
+    margin-left: 10vw;
+    display: flex;
+    justify-items: flex-start;
+}
+
+#footer-links {
+    margin-left: 10vw;
+
+}
+
+
+#footer-links > a {
+    margin-right: 10px;
+    font-size: 12px;
+    color: grey;
+    text-decoration: none;
+}
+
+#using-location {
+    color: grey;
+}
+
+
+.sub-description {
+    color: #70757a;
+    font-size: 14px;
+    margin-top: -10px;
+}

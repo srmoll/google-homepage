@@ -1,29 +1,30 @@
 <!DOCTYPE html> 
 <html>
+    <link rel="stylesheet" href="style.css">
 <!--This is for a replica of the google search results. None of the links are live, and the input form will not lead anywhere except for each dead link.-->
 <body>
     <main id="main-doc">
-        <div id="logo-header"><img id="logo" alt="Celebrating Marsha P. Johnson" src="https://www.google.com/logos/doodles/2020/celebrating-marsha-p-johnson-6753651837108797.2-s.png"></div>
+        <div id="header"><div id="logo-header"><a href="https://www.google.com/" target="_blank"><img id="logo" alt="Celebrating Marsha P. Johnson" src="https://www.google.com/logos/doodles/2020/celebrating-marsha-p-johnson-6753651837108797.2-s.png"></a></div>
         <form id="search-bar">
             <div id="search-bar-container">
                 <input id= "input-query" class="search-bar" placeholder="search..." type="text" value="hello">
-                <button id="search-btn" class="search-bar" type="submit">click</button>
+                <button id="search-btn" class="search-bar" type="submit"><img id="search-btn-img" alt="search" src="https://i.pinimg.com/originals/19/65/ab/1965ab7ef7de87fe748b3c66efbfc73a.jpg"></button>
             </div>
-        </form>
-        <div id="search-results-quantified">About 2400234 results (0.243 seconds)</div>
+        </form></div><hr>
+        <div id="search-results-quantified">About 2,400,234 results (0.243 seconds)</div>
         <div id="search-results-page"> 
             <div class="search-result" id="adele-hello">
                 <a id="top result link" href="https://www.youtube.com/watch?v=YQHsXMglC9A"><img id="placeholder-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSH6RXDRFhC32YuqvHKecdTuQJeWcASXze3aA&amp;usqp=CAU" alt="Hello - Adele"></a>
                 <div id="side-result">
-                    <p>See results about<br><a id="side-link-1" href="https://www.google.com/search?client=safari&rls=en&q=Hello&stick=H4sIAAAAAAAAAONgecSYyy3w8sc9YamUSWtOXmOM4-IKzsgvd80rySypFFLjYoOyZLh4pTj1c_UN0rMKDSw1GKS4uRBcJQ0jmV2Xpp1jExNkAAKTDb4OSpycQJZDobm5vRZD074Vh9hYOBgFGHgWsbJ6pObk5AMAYNOkYnoAAAA&sa=X&ved=2ahUKEwi996aL1qzqAhVGEawKHX_bCU0Q6RMwMHoECBwQBA">Hello</a>
-                    <br>Hello is a salutation or greeting in the English language. It is ...
+                    <p id="side-result-header">See results about</p><a id="side-link-1" href="https://www.google.com/search?client=safari&rls=en&q=Hello&stick=H4sIAAAAAAAAAONgecSYyy3w8sc9YamUSWtOXmOM4-IKzsgvd80rySypFFLjYoOyZLh4pTj1c_UN0rMKDSw1GKS4uRBcJQ0jmV2Xpp1jExNkAAKTDb4OSpycQJZDobm5vRZD074Vh9hYOBgFGHgWsbJ6pObk5AMAYNOkYnoAAAA&sa=X&ved=2ahUKEwi996aL1qzqAhVGEawKHX_bCU0Q6RMwMHoECBwQBA">Hello</a>
+                    Hello is a salutation or greeting in the English language. It is ...
                     </p>
                     <p><a id="side-link-2" href="https://www.google.com/search?client=safari&rls=en&q=Hello!+(magazine)&stick=H4sIAAAAAAAAAONgecQ4i5Fb4OWPe8JSExgnrTl5jbGTkYsrOCO_3DWvJLOkUkiNiw3KkuHileLUz9U3MDGvLErXYJDi5kJwlYKN3HddmnaOzVGQAQjOaAY6SGkqCXNxhCRW5Ofl51YKMjAyNPz5_95eSYiL3bPYJz85MUdQZoldEOelo_ZKnJxATQ8sprbYazE07VtxiI2Fg1GAgWcRq6BHak5OvqKCRm5iemJVZl6qJgARyvxztAAAAA&sa=X&ved=2ahUKEwi996aL1qzqAhVGEawKHX_bCU0Q6RMwMXoECBwQCA">Hello! (Magazine)</a>
                     <br>Hello! is a weekly magazine specializing in celebrity news ...</p>
                 </div>
             </div>
             <div class="search-result" id="wikipedia-hello">
-                <p class="website-source">en.wikipedia.org<br><a id="result-link" href="#">Hello (Adele song) - Wikipedia</a></p>
+                <p id="website">en.wikipedia.org<br><a id="result-link" href="#">Hello (Adele song) - Wikipedia</a></p>
                 <p class="result-description">"Hello" is a song by English singer-songwriter Adel, released on 23 October 2015 by XL recordings as the lead single from her third studio album. 25 (2015). Adele co-wrote the song with her producer, Greg Kurstin. "Hello" is a piano ballad with soul influences, and lyrics that discuss themes of nostalgia and regret.</p>
                 <a id="child-result-link" href="#">Writing and Composition</a>
                 <a id="child-result-link" href="#">Critical Reception</a>
@@ -31,7 +32,7 @@
                 <a id="child-result-link" href="#">Music Video</a>
             </div>
             <div class="search-result" id="hello-network">
-                <p id="website">hello.com<br><a id="result-link" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi996aL1qzqAhVGEawKHX_bCU0QFjAVegQIEhAB&url=https%3A%2F%2Fhello.com%2F&usg=AOvVaw0uz_Rl7wUIyc4UYfxyyaFH">hello network</a><br></p>
+                <p id="website">hello.com<br><a id="result-link" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi996aL1qzqAhVGEawKHX_bCU0QFjAVegQIEhAB&url=https%3A%2F%2Fhello.com%2F&usg=AOvVaw0uz_Rl7wUIyc4UYfxyyaFH">hello network</a></p>
                 <p class="result-description">Connect with people who share your interests. Discover communities you love. Join fun conversations.</p>
             </div>
             <div class="search-result" id="super-simple">
@@ -44,7 +45,7 @@
                 <p class="result-description">America's Most Popular Meal Kit ✅ Most 5-Star-Reviews ✅ Now offering the most recipe variety ✅ Fresh and affordable Meal Delivery. Get Started now!</p>
             </div>
             <div id="people-also-ask">
-                <p>People also ask</p>
+                <p id="h-paa">People also ask</p>
                 <ul id="list-also-ask">
                     <li>Who originally sang Hello?</li>
                     <li>What is Adele's song Hello talking about?</li>
@@ -62,15 +63,25 @@
                 </ul>
             </div>
             <div class="search-result" id="images-hello">
-                <a id="images" href="https://www.google.com/search?source=univ&tbm=isch&q=hello&sa=X&ved=2ahUKEwiM_uvd86zqAhUGcq0KHaCfCWQQsAR6BAgCEAE">Images for Hello</a><br>
+                <a id="images" href="https://www.google.com/search?source=univ&tbm=isch&q=hello&sa=X&ved=2ahUKEwiM_uvd86zqAhUGcq0KHaCfCWQQsAR6BAgCEAE">Images for Hello</a>
                 <div id="image-categories">
-                    <a id="category link" href="/search?q=hello&tbm=isch&chips=q:hello,g_1:animated:eeqdkwUP1T8%3D&usg=AI4_-kQNTFlh7dW07duoN7Cq31Wo5yLgxQ&sa=X&ved=2ahUKEwiM_uvd86zqAhUGcq0KHaCfCWQQgIoDKAB6BAgCEAQ"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOtAhc9-j0E5LgfTobERCoPYQWs9BHBJGIXGSzoB_E6A&s" alt="animated"></a>
-                    <a id="category link" href="/search?q=hello&tbm=isch&chips=q:hello,g_1:clipart:S_wlaG798-o%3D&usg=AI4_-kQxVyNDeiwR8rOKgnZ7eA664z6wAg&sa=X&ved=2ahUKEwiM_uvd86zqAhUGcq0KHaCfCWQQgIoDKAF6BAgCEAY"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxJ8x22QuA_Fimtzz7v1atJJ3fjo6G77kLI7tnJliaPiX8SDzpqPR0Mn-4kw&s" alt="clipart"></a>
-                    <a id="category link" href="/search?q=hello&tbm=isch&chips=q:hello,g_1:sign+language:stqp77W0Nsk%3D&usg=AI4_-kSCHs4pN-Pjvg1egU7iGuMCPRsSqA&sa=X&ved=2ahUKEwiM_uvd86zqAhUGcq0KHaCfCWQQgIoDKAJ6BAgCEAg"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT13bHXTiMCI47Lhym-gMJpZTaNnuAws_2Pau_jUfuFbgzN0yY35rVt-Sc9aw&s" alt="sign language"></a>
+                    <p>animated<a id="category link" href="/search?q=hello&tbm=isch&chips=q:hello,g_1:animated:eeqdkwUP1T8%3D&usg=AI4_-kQNTFlh7dW07duoN7Cq31Wo5yLgxQ&sa=X&ved=2ahUKEwiM_uvd86zqAhUGcq0KHaCfCWQQgIoDKAB6BAgCEAQ"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOtAhc9-j0E5LgfTobERCoPYQWs9BHBJGIXGSzoB_E6A&s" alt="animated"></a>
+                    clipart<a id="category link" href="/search?q=hello&tbm=isch&chips=q:hello,g_1:clipart:S_wlaG798-o%3D&usg=AI4_-kQxVyNDeiwR8rOKgnZ7eA664z6wAg&sa=X&ved=2ahUKEwiM_uvd86zqAhUGcq0KHaCfCWQQgIoDKAF6BAgCEAY"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxJ8x22QuA_Fimtzz7v1atJJ3fjo6G77kLI7tnJliaPiX8SDzpqPR0Mn-4kw&s" alt="clipart"></a>
+                    sign language<a id="category link" href="/search?q=hello&tbm=isch&chips=q:hello,g_1:sign+language:stqp77W0Nsk%3D&usg=AI4_-kSCHs4pN-Pjvg1egU7iGuMCPRsSqA&sa=X&ved=2ahUKEwiM_uvd86zqAhUGcq0KHaCfCWQQgIoDKAJ6BAgCEAg"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT13bHXTiMCI47Lhym-gMJpZTaNnuAws_2Pau_jUfuFbgzN0yY35rVt-Sc9aw&s" alt="sign language"></a></p>
                 </div>
                 <a id="more-images" href="https://www.google.com/search?rls=en&source=univ&tbm=isch&q=hello&client=safari&sa=X&ved=2ahUKEwi996aL1qzqAhVGEawKHX_bCU0Q7Al6BAgIEEU">More Images for hello</a>
             </div>
         </div>
+        <footer id="footer">
+            <div id="location-container"> <p id="user-location">Anytown, CA, USA </p><p id="using-location">- From your internet address - Use precise location - Learn more</p></div>
+           
+            <div id="footer-links">
+                <a id="help" href="https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1">Help</a>
+                <a id="feedback" href="https://www.google.com/search?client=safari&rls=en&q=how+to+remove+bullets+with+ul&ie=UTF-8&oe=UTF-8#"> Send feedback </a>
+                <a id="privacy" href="https://policies.google.com/privacy?fg=1">Privacy </a>
+                <a id="terms" href="https://policies.google.com/terms?fg=1">Terms</a>
+            </div>
+        </footer>
     </main>
 </body>
 </html>
